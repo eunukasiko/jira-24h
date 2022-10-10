@@ -1,5 +1,3 @@
-const timeElements = document.querySelectorAll("time");
-for (let timeElement of timeElements) {
+for (let timeElement of document.querySelectorAll("time")) {
   timeElement.innerText = timeElement.dateTime;
 }
-
